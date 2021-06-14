@@ -1,0 +1,7 @@
+<resources>
+    <string name="enable_gps">فعل إمكانية تحديد الموقع</string>
+    <string name="gpsNoAvailable">خدمة تحديد الموقع غير متاحة</string>
+    <string name="gpsIsDisabled">خدمة تحديد الموقع غير مفعلة</string>
+     <string name="marker_clicked">marker clicked</string>
+    <string name="info_window_clicked">info window clicked</string>
+</resources>

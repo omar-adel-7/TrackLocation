@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cell_bg">#ffffff</color>
+      <color name="dg_title">#cccccc</color>
+
+     <color name="row_user_text_color">#000000</color>
+     <color name="account_txt_color">#000000</color>
+     <color name="red">#ff5555</color>
+    <color name="img_action_text_color">#000000</color>
+
+    <color name="search_hint_color">#6c6c71</color>
+
+    <color name="menu_txt_color">#ffffff</color>
+
+    <color name="menu_bg">@color/colorPrimary</color>
+
+
+    <color name="rounded_icon_color">#d9cdcdcd</color>
+    <color name="rect_image_picker_bg">@color/colorPrimary</color>
+
+    <color name="text_input_edit_hint_floating_color">#565656</color>
+    <color name="text_input_edit_hint_color">#565656</color>
+     <color name="txt_val">#000000</color>
+
+
+</resources>

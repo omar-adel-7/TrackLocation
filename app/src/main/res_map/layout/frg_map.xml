@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/matchParentStyle">
+
+    <LinearLayout
+        android:id="@+id/map_top_bar"
+        style="@style/matchWrapStyle"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/map_top_bar_note"
+            style="@style/matchWrapStyle"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/note_text_size"
+            android:text="@string/map_note"
+            android:layout_marginStart="@dimen/small_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/map_custom"
+        android:layout_below="@+id/map_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/small_margin"
+        />
+
+</RelativeLayout>

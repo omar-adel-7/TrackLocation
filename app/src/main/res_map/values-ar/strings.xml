@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="you">أنت</string>
+    <string name="at">في</string>
+    <string name="map_note">انقر على الخريطة أو اسحب العلامة لاختيار الموقع</string>
+    <string name="choose_location">اختر الموقع</string>
+
+</resources>

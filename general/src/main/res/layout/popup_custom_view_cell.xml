@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup_custom_view_cell_ll_parent"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/popup_window_cell_vertical_margin"
+    android:layout_marginTop="@dimen/popup_window_cell_vertical_margin">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/popup_custom_view_cell_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/popup_window_side_margin"
+        android:layout_marginEnd="@dimen/popup_window_side_margin" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/popup_custom_view_cell_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textSize="@dimen/popup_window_text_size"
+        android:textColor="@color/popup_cell_txt_not_selected"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/popup_window_side_margin"
+        android:layout_marginStart="@dimen/popup_window_side_margin"
+        app:fontFamily="@font/myfont"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wait">انتظر من فضلك</string>
+    <string name="noInternetConnection">لا يوجد إتصال بالإنترنت</string>
+    <string name="alert">تنبيه</string>
+    <string name="done">حسنا</string>
+    <string name="done2">نعم</string>
+    <string name="noalert">لا</string>
+
+    <string name="success_process">تم</string>
+     <string name="err_happened">حدث خطأ</string>
+
+    <string name="today">اليوم</string>
+    <string name="yesterday">أمس</string>
+
+    <string name="empty_list">قائمة خالية</string>
+    <string name="login">تسجيل الدخول</string>
+
+</resources>

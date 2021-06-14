@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mynavigationid"
+    app:startDestination="@id/navLoginFrg">
+
+
+    <fragment
+        android:id="@+id/navLoginFrg"
+        android:name="com.example.track_location.Main.fragments.LoginFragment"/>
+
+    <fragment
+        android:id="@+id/navProfileFrg"
+        android:name="com.example.track_location.Main.fragments.ProfileFragment" />
+
+    <fragment
+        android:id="@+id/navRegisterFrg"
+        android:name="com.example.track_location.Main.fragments.RegisterFragment" />
+
+    <fragment
+        android:id="@+id/navUsersFrg"
+        android:name="com.example.track_location.Main.fragments.UsersFragment" />
+
+
+    <fragment
+        android:id="@+id/navMapUsersFrg"
+        android:name="com.example.track_location.LocationMap.MapUsers.MapUsersFragment" />
+
+    <fragment
+        android:id="@+id/navMapOtherUserFrg"
+        android:name="com.example.track_location.LocationMap.MapOtherUser.MapOtherUserFragment" />
+
+
+</navigation>

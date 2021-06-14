@@ -1,0 +1,29 @@
+<resources>
+     <string name="wait">please wait</string>
+     <string name="noInternetConnection">No Internet Connection</string>
+
+     <string-array name="languages_codes">
+          <item>en</item>
+          <item>ar</item>
+     </string-array>
+
+     <string-array name="languages_names">
+          <item>English</item>
+          <item>العربية</item>
+     </string-array>
+
+     <string name="alert">attention</string>
+     <string name="done">ok</string>
+     <string name="done2">yes</string>
+     <string name="noalert">no</string>
+
+     <string name="success_process">done</string>
+      <string name="err_happened">error happened</string>
+
+     <string name="today">Today</string>
+     <string name="yesterday">Yesterday</string>
+
+     <string name="empty_list">empty list</string>
+     <string name="login">Login</string>
+
+</resources>

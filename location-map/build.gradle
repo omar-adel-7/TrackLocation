@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        resValue "string", "MapApiKey", MAP_API_KEY
+    }
+}
+
+dependencies {
+    api 'com.google.android.gms:play-services-maps:17.0.1'
+    api 'com.google.android.gms:play-services-location:18.0.0'
+    implementation "com.google.android.material:material:$materialVersion"
+    implementation "org.greenrobot:eventbus:$eventbus"
+    api project(':general')
+}

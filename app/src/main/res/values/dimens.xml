@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="shadow_user_padding_top">3dp</dimen>
+    <dimen name="input_edit_text_size">14sp</dimen>
+    <dimen name="menu_text_size">16sp</dimen>
+    <dimen name="row_user_text_size">14sp</dimen>
+
+</resources>

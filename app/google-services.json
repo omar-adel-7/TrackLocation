@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "921719633427",
+    "firebase_url": "https://tracklocation-552dd-default-rtdb.firebaseio.com",
+    "project_id": "tracklocation-552dd",
+    "storage_bucket": "tracklocation-552dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921719633427:android:a82e832c0be2cd19d131e6",
+        "android_client_info": {
+          "package_name": "com.example.track_location"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921719633427-h0m67nmlfv4lll6nrdafkqi8gpitu13s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvu9Ufa5AUILlP4Dvj0H_cBnV1NohPQ10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921719633427-h0m67nmlfv4lll6nrdafkqi8gpitu13s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

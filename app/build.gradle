@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    sourceSets {
+        main.res.srcDirs += 'src/main/res'
+        main.res.srcDirs += 'src/main/res_filter_sort'
+        main.res.srcDirs += 'src/main/res_choose_category'
+        main.res.srcDirs += 'src/main/res_map'
+    }
+    defaultConfig {
+        applicationId "com.example.track_location"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        multiDexEnabled true
+        buildConfigField("String", "FirebaseApiKey", FIREBASE_API_KEY)
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation 'com.github.thyrlian:AwesomeValidation:v4.2'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.google.firebase:firebase-messaging:22.0.0'
+    implementation "androidx.multidex:multidex:$androidxMultidexVersion"
+    kapt "org.greenrobot:eventbus-annotation-processor:$eventbus"
+    kapt "com.google.dagger:dagger-compiler:$daggerVersion"
+    implementation project(':location-map')
+    // Utilities for Maps SDK for Android (requires Google Play Services)
+    implementation 'com.google.maps.android:android-maps-utils:2.2.0'
+    // Alternately - Utilities for Maps SDK v3 BETA for Android (does not require Google Play Services)
+//    implementation 'com.google.maps.android:android-maps-utils-v3:2.2.0'
+}
+kapt {
+    arguments {
+        arg('eventBusIndex', 'com.example.track_location.MyEventBusIndex')
+    }
+}
+apply plugin: 'com.google.gms.google-services'

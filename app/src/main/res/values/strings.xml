@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Track Location</string>
+    <string name="menu_map_users">Map</string>
+    <string name="menu_users">Users</string>
+    <string name="in">in</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_language">Language</string>
+    <string name="frg_register">Register</string>
+    <string name="frg_login">Login</string>
+     <string name="select_lang">Select language</string>
+    <string name="cancel">Cancel</string>
+          <string name="enter_current_password">please enter current password</string>
+    <string name="password_min_length_error">password minimum length is 6 characters</string>
+    <string name="password_mismatch">password mismatch</string>
+       <string name="address_hint">Address</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_passowrd">Confirm Password</string>
+    <string name="confirm_passowrd_hint">Confirm Password</string>
+     <string name="register">Register</string>
+     <string name="logout">Logout</string>
+    <string name="email1">Email :</string>
+    <string name="email">Email</string>
+    <string name="userName">User Name</string>
+
+
+      <string name="err_email">email not valid</string>
+    <string name="err_name">username not valid</string>
+    <string name="err_password">password not valid</string>
+     <string name="error_login">error in login</string>
+     <string name="current_password_wrong">wrong current password</string>
+    <string name="err_in_register">error in register</string>
+    <string name="err_in_update_user">error in update your data</string>
+     <string name="choose_language">Choose Language</string>
+     <string name="update">update</string>
+    <string name="locationLastUpdate">location last update at :</string>
+    <string name="and">and</string>
+
+</resources>

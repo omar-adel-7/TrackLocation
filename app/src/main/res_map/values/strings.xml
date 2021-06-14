@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="you">you</string>
+    <string name="at">at</string>
+    <string name="map_note">click on the map or drag the marker to choose the location</string>
+    <string name="choose_location">choose location</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_map_users">الخريطة</string>
+    <string name="menu_users">المستخدمين</string>
+    <string name="in">في</string>
+    <string name="menu_search">بحث</string>
+    <string name="menu_profile">حسابي</string>
+    <string name="menu_language">اللغة</string>
+    <string name="frg_register">عضوية جديدة</string>
+    <string name="frg_login">تسجيل الدخول</string>
+     <string name="select_lang">اختر اللغة</string>
+    <string name="cancel">إلغاء</string>
+          <string name="enter_current_password">أدخل كلمة السر الحالية</string>
+    <string name="password_min_length_error">أقل عدد حروف أو أرقام لكلمة السر هو 6</string>
+    <string name="password_mismatch">كلمة السر غير متطابقة</string>
+       <string name="address_hint">العنوان</string>
+    <string name="password">كلمة السر</string>
+    <string name="password_hint">كلمة السر</string>
+    <string name="confirm_passowrd">أكد كلمة السر</string>
+    <string name="confirm_passowrd_hint">أكد كلمة السر</string>
+      <string name="register">عضوية جديدة</string>
+     <string name="logout">تسجيل الخروج</string>
+     <string name="email1">البريد الإلكتروني :</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="userName">اسم المستخدم</string>
+     <string name="update">حدث</string>
+
+      <string name="err_email">البريد الإلكتروني غير صالح</string>
+    <string name="err_name">اسم المستخدم غير صالح</string>
+    <string name="err_password">كلمة السر غير صالحة</string>
+     <string name="error_login">خطأ في تسجيل الدخول</string>
+     <string name="current_password_wrong">كلمة السر الحالية خاطئة</string>
+    <string name="err_in_register">خطأ في تسجيل عضوية جديدة</string>
+    <string name="err_in_update_user">خطأ في تحديث حسابك</string>
+
+     <string name="choose_language">اختر اللغة</string>
+      <string name="locationLastUpdate">تاريخ أخر تحديث للموقع هو :</string>
+    <string name="and">و</string>
+
+</resources>
